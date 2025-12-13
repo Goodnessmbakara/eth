@@ -1,7 +1,7 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { Cinzel, Cinzel_Decorative } from "next/font/google"
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react"
 import "./globals.css"
 
 const cinzel = Cinzel({
