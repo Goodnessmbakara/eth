@@ -19,7 +19,7 @@ export const GameButton = forwardRef<HTMLButtonElement, GameButtonProps>(
           variant === "primary" && [
             "bg-gradient-to-r from-glow-amber via-primary to-glow-amber",
             "text-primary-foreground",
-            "shadow-lg shadow-glow-amber/50",
+            "shadow-md shadow-glow-amber/50",
             "hover:shadow-xl hover:shadow-glow-amber/70",
             "before:absolute before:inset-0 before:bg-gradient-to-r before:from-transparent before:via-white/20 before:to-transparent",
             "before:-translate-x-full hover:before:translate-x-full before:transition-transform before:duration-700",
