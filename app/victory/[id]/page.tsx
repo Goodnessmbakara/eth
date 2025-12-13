@@ -38,14 +38,7 @@ export default async function VictoryPage({ params }: VictoryPageProps) {
 
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-2xl">
-        {/* Trophy icon */}
-        <div className="mb-8 flex justify-center">
-          <div className="relative">
-            <Trophy className="w-24 h-24 md:w-32 md:h-32 text-glow-amber animate-float" />
-            <Sparkles className="w-12 h-12 text-glow-cyan absolute -top-2 -right-2 animate-glow-pulse" />
-          </div>
-        </div>
-
+      
         {/* Victory text */}
         <h1 className="font-[family-name:var(--font-cinzel-decorative)] text-5xl md:text-7xl font-black text-glow-amber text-glow mb-6">
           STAGE COMPLETE
@@ -79,7 +72,7 @@ export default async function VictoryPage({ params }: VictoryPageProps) {
             </Link>
           ) : (
             <Link href="/">
-              <GameButton size="lg" className="text-xl px-10 py-5">
+              <GameButton  size="lg" className="text-xl px-10 py-5">
                 Return to Temple
               </GameButton>
             </Link>
